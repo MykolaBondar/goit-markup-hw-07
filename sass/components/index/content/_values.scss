@@ -1,0 +1,45 @@
+.values {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.values__header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+.values__list {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+}
+
+.values__item {
+  min-width: 270px;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.values__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background: $sand-color;
+  border-radius: 4px;
+}
+.values__text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: $secondary-color;
+  margin-top: 10px;
+}
