@@ -36,6 +36,15 @@
   background: $sand-color;
   border-radius: 4px;
 }
+.values__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $primary-color;
+}
 .values__text {
   font-size: 14px;
   line-height: calc(24 / 14);
